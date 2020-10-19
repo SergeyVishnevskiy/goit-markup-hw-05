@@ -595,8 +595,6 @@ img {
 }
 .close-svg {
     position: absolute;
-    width: 30px;
-    height: 30px;
     fill: #000000;
     cursor: pointer;
 }
