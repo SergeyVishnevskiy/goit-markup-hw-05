@@ -256,11 +256,13 @@ img {
 .work-item {
     display: block;
     flex-basis: calc((100% - 2 * 30px) / 3);
+}
+.actions-thumb {
     position: relative;
 }
 .work-actions {
     position: absolute;
-    top: 224px;
+    bottom: 0;
 }
 .work-title {
     display: inline-block;
@@ -527,6 +529,8 @@ img {
     margin: 0;
     position: absolute;
     top: 0;
+    animation-duration: 1000ms;
+    animation-iteration-count: 1;
 }
 .portfolio-actions__text {
     font-size: 18px;
@@ -535,6 +539,8 @@ img {
     padding: 63px 24px;
     color: #FFFFFF;
     margin: 0;
+    animation-duration: 1000ms;
+    animation-iteration-count: 1;
 }
 
 /* <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
