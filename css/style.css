@@ -26,6 +26,7 @@ a {
 }
 img {
     display: block;
+    height: auto;
 }
 .list {
     padding: 0px;
@@ -599,15 +600,6 @@ img {
     animation-duration: 1000ms;
 }
 
-/* @keyframes modal-anim {
-    0% {
-        transform: rotate(0deg);
-    }
-    100% {
-        transform: rotate(360deg);
-    }
-} */
-
 .close-modal {
     position: absolute;
     top: 8px;
@@ -641,6 +633,25 @@ img {
     visibility: hidden;
     pointer-events: none;
 }
+/* ==================== END MODAL ==================== */
+ 
+/* .title-form {
+    margin-top: 40px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 1.15;
+}
+.contacts-form {
+
+} */
+
+
+
+
+
+
+
 
 
 
